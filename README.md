@@ -1,16 +1,82 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 🔐 Password Generator
 
-Currently, two official plugins are available:
+A responsive and user-friendly **Password Generator** built using React.js, Vite, and Tailwind CSS. This application helps users generate strong and random passwords with customizable options.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🔑 Generate random passwords instantly.
+- 📏 Customize password length.
+- 🔠 Include uppercase and lowercase letters.
+- 🔢 Include numbers in the password.
+- 🔣 Include special characters.
+- 📋 Copy the generated password to the clipboard.
+- ⚡ Fast and interactive user interface.
+- 📱 Responsive design for different screen sizes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- **React.js** – Building the user interface.
+- **Vite** – Fast development and build tool.
+- **Tailwind CSS** – Responsive styling and modern UI.
+- **JavaScript (ES6+)** – Password generation logic.
+- **React Hooks** – Managing state, side effects, and performance.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ⚛️ React Hooks Used
+
+- **useState** – Manages password state and user-selected options.
+- **useCallback** – Memoizes functions to optimize performance.
+- **useRef** – References the password input element for operations like selecting or copying text.
+- **useEffect** – Handles side effects and updates when dependencies change.
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd YOUR_PROJECT_FOLDER
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to use the application.
+
+## 📂 Project Highlights
+
+- Component-based development using React.
+- Dynamic password generation with customizable settings.
+- Efficient state and event handling using React Hooks.
+- Clean and responsive UI built with Tailwind CSS.
+
+## 🎯 Learning Outcomes
+
+Through this project, I practiced React Hooks, state management, handling user interactions, working with references, and creating responsive interfaces using Tailwind CSS.
+
+## 👨‍💻 Author
+
+**Rupesh Kumar**
+
+- GitHub: [Visit My GitHub Profile](https://github.com/)
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
